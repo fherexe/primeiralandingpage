@@ -1,0 +1,107 @@
+:root {
+    --color1: #F2F2F2;
+    --color2: #011627;
+    --color3: #025CB2;
+    --color4: #027B68;
+    --color5: #E5390B;
+}
+
+body {}
+
+main,
+section {
+    padding: 0px 5%;
+}
+
+main {
+    height: 60vh;
+    background-color: var(--color2);
+    color: var(--color1);
+    padding-top: 8em;
+    text-align: justify;
+}
+
+.cabenobolso h1 {
+    padding: 10px 0;
+}
+
+.cabenobolso p {
+    max-width: 30em;
+    text-align: left;
+    padding-bottom: 3em;
+}
+
+.cabenobolso img {
+    position: absolute;
+    height: 34em;
+    left: 42%;
+    top: 20%;
+}
+
+
+.cabenobolso a {
+    color: var(--color2);
+    background: rgb(255, 252, 61);
+    padding: 1em;
+    border-radius: 4em;
+    font-weight: 600;
+}
+
+.cabenobolso a:hover {
+    background-color: #F2F2F2;
+}
+
+section {
+    margin-top: 9%;
+    height: 45em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section h3 {
+    padding: 6px 0px;
+}
+
+section li {
+    padding: 4px 0px;
+}
+
+.detalhes p {
+    padding: 10px 0px;
+    padding-bottom: 4em;
+}
+
+.detalhes {
+    min-height: 40em;
+    width: 35em;
+    padding: 1em;
+}
+
+.detalhes img {
+    position: relative;
+    width: 30em;
+    top: 5%;
+}
+
+.detalhes ul {
+    text-align: right;
+}
+
+footer {
+    background-color: var(--color2);
+    height: 11em;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+footer img {
+    height: 4em;
+    padding: 1em 0;
+}
+
+footer p {
+    padding: 1em 0;
+}

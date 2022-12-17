@@ -11,7 +11,7 @@ footer {
     padding: 0 8%;
 }
 
-header img{
+header img {
     height: 4em;
 }
 
@@ -59,22 +59,28 @@ main {
 section {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     min-height: 80vh;
 
 }
 
-.item{
+.item {
     min-width: 18em;
     max-width: 24em;
     min-height: 30em;
     padding: 1em;
 }
 
-.item h2, h3{
+.item h2,
+h3 {
     text-align: center;
 }
 
-
+footer {
+    background-color: var(--color2);
+    text-align: center;
+    color: #fff;
+}
 
 footer img {
     height: 4em;
@@ -87,8 +93,10 @@ footer p {
 
 
 
-@media(max-width:900px){
-    main{
+@media(max-width:900px) {
+
+    main,
+    section {
         display: flex;
         flex-direction: column;
     }

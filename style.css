@@ -1,7 +1,7 @@
 :root {
     --color1: #fff;
     --color2: #01173f;
-    --color3: #fffb08;
+    --color3: #f5f100;
 }
 
 header,
@@ -61,7 +61,6 @@ section {
     justify-content: space-around;
     align-items: center;
     min-height: 80vh;
-
 }
 
 .item {
@@ -71,9 +70,18 @@ section {
     padding: 1em;
 }
 
+.item ol, ul{
+    margin-top: 1em;
+
+}
+
 .item h2,
 h3 {
     text-align: center;
+}
+
+.item p{
+    margin:6px 0;
 }
 
 footer {
@@ -82,9 +90,13 @@ footer {
     color: #fff;
 }
 
+footer h2{
+    padding: 5px 0;
+}
+
 footer img {
-    height: 4em;
-    padding: 1em 0;
+    width: 2em;
+    padding: 4px 0;
 }
 
 footer p {

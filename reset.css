@@ -6,4 +6,5 @@
     box-sizing: border-box;
     font-family: 'Roboto Flex', sans-serif;
     text-decoration: none;
+    border: 2px solid red;
 }
